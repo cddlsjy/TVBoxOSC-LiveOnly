@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Clean Gradle wrapper cache
-  run: rm -rf ~/.gradle/wrapper/dists/
+     run: rm -rf ~/.gradle/wrapper/dists/
       - name: Checkout code
         uses: actions/checkout@v4
 

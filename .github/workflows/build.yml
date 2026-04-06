@@ -12,8 +12,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Clean Gradle wrapper cache
-     run: rm -rf ~/.gradle/wrapper/dists/
+      - name: Clean Gradle wrapper cache
+        run: rm -rf ~/.gradle/wrapper/dists/
+
       - name: Checkout code
         uses: actions/checkout@v4
 
@@ -33,14 +34,12 @@ jobs:
           echo "JAVA_HOME: $JAVA_HOME"
           java -version
 
-      - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@v3
-        with:
-          gradle-version: '8.5'
+      # 移除 gradle/actions/setup-gradle，直接使用 wrapper
+      - name: Make gradlew executable
+        run: chmod +x gradlew
 
-      # ⚠️ 修改这里：assembleFreeDebug → assembleDebug
       - name: Build APK
-        run: gradle assembleDebug --stacktrace --no-daemon
+        run: ./gradlew assembleDebug --stacktrace --no-daemon
 
       - name: Find and upload APK
         id: find_apk

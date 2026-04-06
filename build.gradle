@@ -19,7 +19,10 @@ allprojects {
         gradlePluginPortal()
         google()
         mavenCentral()
+        jcenter()   // 新增：解决 loadsir、autosize、okgo、tv-recyclerview 等依赖
         maven { url "https://jitpack.io" }
+        // 新增：解决 rtmp-client 依赖（被 player 模块中的 exoplayer-rtmp 传递依赖）
+        maven { url 'https://raw.githubusercontent.com/butterflytv/butterflytv-android-sdk/master/release' }
     }
 }
 

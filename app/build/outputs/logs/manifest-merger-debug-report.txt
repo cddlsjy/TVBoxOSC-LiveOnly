@@ -1,0 +1,451 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:46:9-54:20
+	android:grantUriPermissions
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:50:13-47
+	android:authorities
+		INJECTED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:48:13-64
+	android:exported
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:49:13-37
+	android:name
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:47:13-62
+manifest
+ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:2:1-65:12
+MERGED from [androidx.multidex:multidex:2.0.1] D:\dev2026\Gradle_Home\caches\transforms-3\52d9f4fa705745d204c7506a65711c60\transformed\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.kingja.loadsir:loadsir:1.3.8] D:\dev2026\Gradle_Home\caches\transforms-3\701877fa9bc9bf11bd3c716bd229c64f\transformed\jetified-loadsir-1.3.8\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] D:\dev2026\Gradle_Home\caches\transforms-3\23059cb3a699d46d7077b8af34227e69\transformed\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] D:\dev2026\Gradle_Home\caches\transforms-3\bda5e4c8bcbef6605b1c206088d1360c\transformed\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] D:\dev2026\Gradle_Home\caches\transforms-3\e81ef4ee2be0c07d7a2afa10e49b88d2\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.owen:tv-recyclerview:3.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\f727cab9adb075ef1a5086ace04d5cfc\transformed\jetified-tv-recyclerview-3.0.0\AndroidManifest.xml:2:1-14:12
+MERGED from [com.alibaba.android:vlayout:1.2.37] D:\dev2026\Gradle_Home\caches\transforms-3\8abc6404a8cdeb7c88417c6516bbfc02\transformed\jetified-vlayout-1.2.37\AndroidManifest.xml:25:1-35:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\85051e400d7bc8d36fc7f085b392ea3b\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.3.0] D:\dev2026\Gradle_Home\caches\transforms-3\c9ce0ef312743e88f8c84f3e50dda09d\transformed\room-runtime-2.3.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.squareup.picasso:picasso:2.71828] D:\dev2026\Gradle_Home\caches\transforms-3\9c658f510c308e06d1001c5919c9bfdf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [com.lzy.net:okgo:3.0.4] D:\dev2026\Gradle_Home\caches\transforms-3\4bfedce46163639f896f90bef16d9365\transformed\jetified-okgo-3.0.4\AndroidManifest.xml:17:1-31:12
+MERGED from [:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-30:12
+MERGED from [com.google.android.exoplayer:extension-okhttp:2.14.2] D:\dev2026\Gradle_Home\caches\transforms-3\eab8cbe2d8651f118ddba1e6eb23ee6c\transformed\jetified-extension-okhttp-2.14.2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.45-androidx] D:\dev2026\Gradle_Home\caches\transforms-3\227fcf99e58f4345e60a055d3bdf0ce3\transformed\jetified-BaseRecyclerViewAdapterHelper-2.9.45-androidx\AndroidManifest.xml:2:1-11:12
+MERGED from [com.orhanobut:hawk:2.0.1] D:\dev2026\Gradle_Home\caches\transforms-3\c72fd55f3418e53d3342a153861adea4\transformed\jetified-hawk-2.0.1\AndroidManifest.xml:2:1-8:12
+MERGED from [me.jessyan:autosize:1.2.1] D:\dev2026\Gradle_Home\caches\transforms-3\6e54aeaf960a279312d65bb7c93b83e0\transformed\jetified-autosize-1.2.1\AndroidManifest.xml:2:1-19:12
+MERGED from [com.github.getActivity:XXPermissions:13.6] D:\dev2026\Gradle_Home\caches\transforms-3\5a90a16cc93726fa9d2d60ca6bf21742\transformed\jetified-XXPermissions-13.6\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\04c9abf850a57b676a56f22d90b0e5fb\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.4] D:\dev2026\Gradle_Home\caches\transforms-3\b36b9543a8f53f1177b9146205e2432e\transformed\fragment-1.3.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] D:\dev2026\Gradle_Home\caches\transforms-3\8379a4b01dc91f762f5fc71fea117def\transformed\jetified-activity-1.2.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] D:\dev2026\Gradle_Home\caches\transforms-3\4f29683f92df6c50bf0d54046ef4246a\transformed\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\b94f639eb26a4f44a5314e286692d635\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\7267f884ba622e8d16675e23da3872a9\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\aa1ddd61d7a0b964257bdc22d9a08c0d\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\8a07082478bab51923ac67db6eedd71c\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\03d114da583d154c9d297b84ba3d4086\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\062b662148864ebc7f8361ad1ec9b06a\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\113580de2915e5a00523c872cee93a17\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\5bdd672a25bee5a77c10195ed9c68eae\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\4860d35ceb56a35e0b713ba5c388b2f1\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\699f9f691115bc2fbb671b8d24f1c14d\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\9395e3e08364455ef632adbf76ea348d\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\64f33ee56c49823bbc7b40c0f461a26e\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\6dbe834155a51f660d145f5e29687566\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] D:\dev2026\Gradle_Home\caches\transforms-3\3e46dfdb2555b554e89a0099e3702969\transformed\core-1.5.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\c0401e9a0d090f899c0e453a2faf334d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] D:\dev2026\Gradle_Home\caches\transforms-3\b7485beff5be4b7ef9210ec59e2236b1\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\30aba3bf06da581d6b03cd0c813515b8\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] D:\dev2026\Gradle_Home\caches\transforms-3\f6b5562d1fc5fff35b7b496b016820e0\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] D:\dev2026\Gradle_Home\caches\transforms-3\74dca162fa9aa97a32e76692b452d311\transformed\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] D:\dev2026\Gradle_Home\caches\transforms-3\c0ae9ba6d0f3f44e5ff67b87ee032096\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] D:\dev2026\Gradle_Home\caches\transforms-3\89a568ba1616d337fca1de2571bccc44\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] D:\dev2026\Gradle_Home\caches\transforms-3\f395585874813e309727c59b62d515bd\transformed\lifecycle-livedata-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] D:\dev2026\Gradle_Home\caches\transforms-3\2f703ddbba08ab9f29e3ef08e526de43\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\dacce6662e544e863fa46497c36bcb11\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\645136857109902dddd71d181f9d9bde\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\6f9e277dd6867ed8f42ad4bca92bf9a6\transformed\sqlite-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\26ad8693a9ec2885b032e73eb602d665\transformed\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.14.2] D:\dev2026\Gradle_Home\caches\transforms-3\66aa2b822740bd934e6e25ed4a98c814\transformed\jetified-exoplayer-dash-2.14.2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.14.2] D:\dev2026\Gradle_Home\caches\transforms-3\e2599b308b8d47a02265183d963f9964\transformed\jetified-exoplayer-hls-2.14.2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.14.2] D:\dev2026\Gradle_Home\caches\transforms-3\de137a8c8625f659fb1897d58bb9cf73\transformed\jetified-exoplayer-rtsp-2.14.2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.2] D:\dev2026\Gradle_Home\caches\transforms-3\382189f729f228e71fbf445818960396\transformed\jetified-exoplayer-core-2.14.2\AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.android.exoplayer:extension-rtmp:2.14.2] D:\dev2026\Gradle_Home\caches\transforms-3\320bf309a96b7425ffc69c6e8bde05e7\transformed\jetified-extension-rtmp-2.14.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\dev2026\Gradle_Home\caches\transforms-3\78597910d51f3f6962c1a6be61238471\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\104de049f4b691a2d3f276926cf0e97b\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.2] D:\dev2026\Gradle_Home\caches\transforms-3\3c1646fb0be97967b5be64e5536de501\transformed\jetified-exoplayer-extractor-2.14.2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.2] D:\dev2026\Gradle_Home\caches\transforms-3\6d4d05e9c2d2a04a1c7956beabdf3820\transformed\jetified-exoplayer-common-2.14.2\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\1c51323400d70de634b613438d730bea\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\04a12f5c2ef85d3ef77a09c0b85719a2\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\7960a3af442a80329c6ddad6404826b8\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\efe941af2014a5d4fe938ae82af53760\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\40c99ae60eb691a4830a3d95cb57d91e\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.conceal:conceal:1.1.3] D:\dev2026\Gradle_Home\caches\transforms-3\8e8ea11c670a10794980d6a789d8a96c\transformed\jetified-conceal-1.1.3\AndroidManifest.xml:7:1-16:12
+MERGED from [xyz.doikki.android.dkplayer:dkplayer-ui:3.3.5] D:\dev2026\Gradle_Home\caches\transforms-3\8a826651e9dc777c19bb4a1c4bedf41d\transformed\jetified-dkplayer-ui-3.3.5\AndroidManifest.xml:2:1-9:12
+MERGED from [net.butterflytv.utils:rtmp-client:3.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\ae1711a9577b20859800ca51f0d77eb1\transformed\jetified-rtmp-client-3.1.0\AndroidManifest.xml:2:1-13:12
+INJECTED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:2:1-65:12
+	package
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml
+		INJECTED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:2:1-65:12
+		INJECTED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:2:1-65:12
+		INJECTED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.lzy.net:okgo:3.0.4] D:\dev2026\Gradle_Home\caches\transforms-3\4bfedce46163639f896f90bef16d9365\transformed\jetified-okgo-3.0.4\AndroidManifest.xml:26:5-67
+MERGED from [com.lzy.net:okgo:3.0.4] D:\dev2026\Gradle_Home\caches\transforms-3\4bfedce46163639f896f90bef16d9365\transformed\jetified-okgo-3.0.4\AndroidManifest.xml:26:5-67
+MERGED from [:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:5-67
+MERGED from [:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:5-67
+MERGED from [net.butterflytv.utils:rtmp-client:3.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\ae1711a9577b20859800ca51f0d77eb1\transformed\jetified-rtmp-client-3.1.0\AndroidManifest.xml:11:5-67
+MERGED from [net.butterflytv.utils:rtmp-client:3.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\ae1711a9577b20859800ca51f0d77eb1\transformed\jetified-rtmp-client-3.1.0\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:5-79
+MERGED from [:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.2] D:\dev2026\Gradle_Home\caches\transforms-3\382189f729f228e71fbf445818960396\transformed\jetified-exoplayer-core-2.14.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.2] D:\dev2026\Gradle_Home\caches\transforms-3\382189f729f228e71fbf445818960396\transformed\jetified-exoplayer-core-2.14.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.2] D:\dev2026\Gradle_Home\caches\transforms-3\6d4d05e9c2d2a04a1c7956beabdf3820\transformed\jetified-exoplayer-common-2.14.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.2] D:\dev2026\Gradle_Home\caches\transforms-3\6d4d05e9c2d2a04a1c7956beabdf3820\transformed\jetified-exoplayer-common-2.14.2\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:7:5-76
+MERGED from [:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:5-76
+MERGED from [:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:5-76
+	android:name
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:7:22-73
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:8:5-86
+MERGED from [:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:5-86
+MERGED from [:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:5-86
+	android:name
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:8:22-83
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:9:5-80
+MERGED from [com.lzy.net:okgo:3.0.4] D:\dev2026\Gradle_Home\caches\transforms-3\4bfedce46163639f896f90bef16d9365\transformed\jetified-okgo-3.0.4\AndroidManifest.xml:27:5-80
+MERGED from [com.lzy.net:okgo:3.0.4] D:\dev2026\Gradle_Home\caches\transforms-3\4bfedce46163639f896f90bef16d9365\transformed\jetified-okgo-3.0.4\AndroidManifest.xml:27:5-80
+MERGED from [:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:5-80
+MERGED from [:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:9:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:10:5-81
+MERGED from [com.lzy.net:okgo:3.0.4] D:\dev2026\Gradle_Home\caches\transforms-3\4bfedce46163639f896f90bef16d9365\transformed\jetified-okgo-3.0.4\AndroidManifest.xml:28:5-81
+MERGED from [com.lzy.net:okgo:3.0.4] D:\dev2026\Gradle_Home\caches\transforms-3\4bfedce46163639f896f90bef16d9365\transformed\jetified-okgo-3.0.4\AndroidManifest.xml:28:5-81
+MERGED from [:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:5-81
+MERGED from [:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:11:5-79
+MERGED from [:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:5-79
+MERGED from [:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:5-79
+	android:name
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:12:5-83
+MERGED from [:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:5-83
+MERGED from [:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:5-83
+	android:name
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:12:22-80
+application
+ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:14:5-63:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] D:\dev2026\Gradle_Home\caches\transforms-3\23059cb3a699d46d7077b8af34227e69\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] D:\dev2026\Gradle_Home\caches\transforms-3\23059cb3a699d46d7077b8af34227e69\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] D:\dev2026\Gradle_Home\caches\transforms-3\e81ef4ee2be0c07d7a2afa10e49b88d2\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] D:\dev2026\Gradle_Home\caches\transforms-3\e81ef4ee2be0c07d7a2afa10e49b88d2\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.owen:tv-recyclerview:3.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\f727cab9adb075ef1a5086ace04d5cfc\transformed\jetified-tv-recyclerview-3.0.0\AndroidManifest.xml:11:5-12:19
+MERGED from [com.owen:tv-recyclerview:3.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\f727cab9adb075ef1a5086ace04d5cfc\transformed\jetified-tv-recyclerview-3.0.0\AndroidManifest.xml:11:5-12:19
+MERGED from [androidx.room:room-runtime:2.3.0] D:\dev2026\Gradle_Home\caches\transforms-3\c9ce0ef312743e88f8c84f3e50dda09d\transformed\room-runtime-2.3.0\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.3.0] D:\dev2026\Gradle_Home\caches\transforms-3\c9ce0ef312743e88f8c84f3e50dda09d\transformed\room-runtime-2.3.0\AndroidManifest.xml:24:5-29:19
+MERGED from [com.squareup.picasso:picasso:2.71828] D:\dev2026\Gradle_Home\caches\transforms-3\9c658f510c308e06d1001c5919c9bfdf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] D:\dev2026\Gradle_Home\caches\transforms-3\9c658f510c308e06d1001c5919c9bfdf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [me.jessyan:autosize:1.2.1] D:\dev2026\Gradle_Home\caches\transforms-3\6e54aeaf960a279312d65bb7c93b83e0\transformed\jetified-autosize-1.2.1\AndroidManifest.xml:11:5-17:19
+MERGED from [me.jessyan:autosize:1.2.1] D:\dev2026\Gradle_Home\caches\transforms-3\6e54aeaf960a279312d65bb7c93b83e0\transformed\jetified-autosize-1.2.1\AndroidManifest.xml:11:5-17:19
+MERGED from [androidx.core:core:1.5.0] D:\dev2026\Gradle_Home\caches\transforms-3\3e46dfdb2555b554e89a0099e3702969\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] D:\dev2026\Gradle_Home\caches\transforms-3\3e46dfdb2555b554e89a0099e3702969\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] D:\dev2026\Gradle_Home\caches\transforms-3\f6b5562d1fc5fff35b7b496b016820e0\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] D:\dev2026\Gradle_Home\caches\transforms-3\f6b5562d1fc5fff35b7b496b016820e0\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\dev2026\Gradle_Home\caches\transforms-3\78597910d51f3f6962c1a6be61238471\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\dev2026\Gradle_Home\caches\transforms-3\78597910d51f3f6962c1a6be61238471\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] D:\dev2026\Gradle_Home\caches\transforms-3\3e46dfdb2555b554e89a0099e3702969\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:24:9-35
+	android:label
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:21:9-41
+	android:hardwareAccelerated
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:19:9-43
+	android:configChanges
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:18:9-70
+	android:largeHeap
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:22:9-33
+	android:icon
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:20:9-42
+	android:allowBackup
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:16:9-35
+	android:banner
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:17:9-46
+	android:theme
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:25:9-52
+	android:networkSecurityConfig
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:23:9-69
+	android:usesCleartextTraffic
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:15:9-33
+activity#com.github.tvbox.osc.ui.activity.HomeActivity
+ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:28:9-37:20
+	android:screenOrientation
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:30:13-50
+	android:name
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:29:13-53
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
+ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:31:13-36:29
+action#android.intent.action.MAIN
+ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:34:27-74
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:35:17-86
+	android:name
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:35:27-83
+activity#com.github.tvbox.osc.ui.activity.LivePlayActivity
+ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:39:9-41:53
+	android:screenOrientation
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:41:13-50
+	android:name
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:40:13-57
+activity#com.github.tvbox.osc.ui.activity.SettingActivity
+ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:42:9-44:53
+	android:screenOrientation
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:44:13-50
+	android:name
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:43:13-56
+meta-data#design_width_in_dp
+ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:56:9-58:36
+	android:value
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:58:13-33
+	android:name
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:57:13-46
+meta-data#design_height_in_dp
+ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:59:9-61:35
+	android:value
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:61:13-32
+	android:name
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:60:13-47
+uses-sdk
+INJECTED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml
+INJECTED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml
+MERGED from [androidx.multidex:multidex:2.0.1] D:\dev2026\Gradle_Home\caches\transforms-3\52d9f4fa705745d204c7506a65711c60\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] D:\dev2026\Gradle_Home\caches\transforms-3\52d9f4fa705745d204c7506a65711c60\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.kingja.loadsir:loadsir:1.3.8] D:\dev2026\Gradle_Home\caches\transforms-3\701877fa9bc9bf11bd3c716bd229c64f\transformed\jetified-loadsir-1.3.8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.kingja.loadsir:loadsir:1.3.8] D:\dev2026\Gradle_Home\caches\transforms-3\701877fa9bc9bf11bd3c716bd229c64f\transformed\jetified-loadsir-1.3.8\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] D:\dev2026\Gradle_Home\caches\transforms-3\23059cb3a699d46d7077b8af34227e69\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] D:\dev2026\Gradle_Home\caches\transforms-3\23059cb3a699d46d7077b8af34227e69\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] D:\dev2026\Gradle_Home\caches\transforms-3\bda5e4c8bcbef6605b1c206088d1360c\transformed\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] D:\dev2026\Gradle_Home\caches\transforms-3\bda5e4c8bcbef6605b1c206088d1360c\transformed\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] D:\dev2026\Gradle_Home\caches\transforms-3\e81ef4ee2be0c07d7a2afa10e49b88d2\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] D:\dev2026\Gradle_Home\caches\transforms-3\e81ef4ee2be0c07d7a2afa10e49b88d2\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.owen:tv-recyclerview:3.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\f727cab9adb075ef1a5086ace04d5cfc\transformed\jetified-tv-recyclerview-3.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.owen:tv-recyclerview:3.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\f727cab9adb075ef1a5086ace04d5cfc\transformed\jetified-tv-recyclerview-3.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.alibaba.android:vlayout:1.2.37] D:\dev2026\Gradle_Home\caches\transforms-3\8abc6404a8cdeb7c88417c6516bbfc02\transformed\jetified-vlayout-1.2.37\AndroidManifest.xml:31:5-33:41
+MERGED from [com.alibaba.android:vlayout:1.2.37] D:\dev2026\Gradle_Home\caches\transforms-3\8abc6404a8cdeb7c88417c6516bbfc02\transformed\jetified-vlayout-1.2.37\AndroidManifest.xml:31:5-33:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\85051e400d7bc8d36fc7f085b392ea3b\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\85051e400d7bc8d36fc7f085b392ea3b\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.3.0] D:\dev2026\Gradle_Home\caches\transforms-3\c9ce0ef312743e88f8c84f3e50dda09d\transformed\room-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.3.0] D:\dev2026\Gradle_Home\caches\transforms-3\c9ce0ef312743e88f8c84f3e50dda09d\transformed\room-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.picasso:picasso:2.71828] D:\dev2026\Gradle_Home\caches\transforms-3\9c658f510c308e06d1001c5919c9bfdf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] D:\dev2026\Gradle_Home\caches\transforms-3\9c658f510c308e06d1001c5919c9bfdf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.lzy.net:okgo:3.0.4] D:\dev2026\Gradle_Home\caches\transforms-3\4bfedce46163639f896f90bef16d9365\transformed\jetified-okgo-3.0.4\AndroidManifest.xml:22:5-24:41
+MERGED from [com.lzy.net:okgo:3.0.4] D:\dev2026\Gradle_Home\caches\transforms-3\4bfedce46163639f896f90bef16d9365\transformed\jetified-okgo-3.0.4\AndroidManifest.xml:22:5-24:41
+MERGED from [:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-16:41
+MERGED from [:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-16:41
+MERGED from [com.google.android.exoplayer:extension-okhttp:2.14.2] D:\dev2026\Gradle_Home\caches\transforms-3\eab8cbe2d8651f118ddba1e6eb23ee6c\transformed\jetified-extension-okhttp-2.14.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:extension-okhttp:2.14.2] D:\dev2026\Gradle_Home\caches\transforms-3\eab8cbe2d8651f118ddba1e6eb23ee6c\transformed\jetified-extension-okhttp-2.14.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.45-androidx] D:\dev2026\Gradle_Home\caches\transforms-3\227fcf99e58f4345e60a055d3bdf0ce3\transformed\jetified-BaseRecyclerViewAdapterHelper-2.9.45-androidx\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.45-androidx] D:\dev2026\Gradle_Home\caches\transforms-3\227fcf99e58f4345e60a055d3bdf0ce3\transformed\jetified-BaseRecyclerViewAdapterHelper-2.9.45-androidx\AndroidManifest.xml:7:5-9:41
+MERGED from [com.orhanobut:hawk:2.0.1] D:\dev2026\Gradle_Home\caches\transforms-3\c72fd55f3418e53d3342a153861adea4\transformed\jetified-hawk-2.0.1\AndroidManifest.xml:6:5-44
+MERGED from [com.orhanobut:hawk:2.0.1] D:\dev2026\Gradle_Home\caches\transforms-3\c72fd55f3418e53d3342a153861adea4\transformed\jetified-hawk-2.0.1\AndroidManifest.xml:6:5-44
+MERGED from [me.jessyan:autosize:1.2.1] D:\dev2026\Gradle_Home\caches\transforms-3\6e54aeaf960a279312d65bb7c93b83e0\transformed\jetified-autosize-1.2.1\AndroidManifest.xml:7:5-9:41
+MERGED from [me.jessyan:autosize:1.2.1] D:\dev2026\Gradle_Home\caches\transforms-3\6e54aeaf960a279312d65bb7c93b83e0\transformed\jetified-autosize-1.2.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.getActivity:XXPermissions:13.6] D:\dev2026\Gradle_Home\caches\transforms-3\5a90a16cc93726fa9d2d60ca6bf21742\transformed\jetified-XXPermissions-13.6\AndroidManifest.xml:7:5-44
+MERGED from [com.github.getActivity:XXPermissions:13.6] D:\dev2026\Gradle_Home\caches\transforms-3\5a90a16cc93726fa9d2d60ca6bf21742\transformed\jetified-XXPermissions-13.6\AndroidManifest.xml:7:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\04c9abf850a57b676a56f22d90b0e5fb\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\04c9abf850a57b676a56f22d90b0e5fb\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.4] D:\dev2026\Gradle_Home\caches\transforms-3\b36b9543a8f53f1177b9146205e2432e\transformed\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] D:\dev2026\Gradle_Home\caches\transforms-3\b36b9543a8f53f1177b9146205e2432e\transformed\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] D:\dev2026\Gradle_Home\caches\transforms-3\8379a4b01dc91f762f5fc71fea117def\transformed\jetified-activity-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] D:\dev2026\Gradle_Home\caches\transforms-3\8379a4b01dc91f762f5fc71fea117def\transformed\jetified-activity-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] D:\dev2026\Gradle_Home\caches\transforms-3\4f29683f92df6c50bf0d54046ef4246a\transformed\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] D:\dev2026\Gradle_Home\caches\transforms-3\4f29683f92df6c50bf0d54046ef4246a\transformed\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\b94f639eb26a4f44a5314e286692d635\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\b94f639eb26a4f44a5314e286692d635\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\7267f884ba622e8d16675e23da3872a9\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\7267f884ba622e8d16675e23da3872a9\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\aa1ddd61d7a0b964257bdc22d9a08c0d\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\aa1ddd61d7a0b964257bdc22d9a08c0d\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\8a07082478bab51923ac67db6eedd71c\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\8a07082478bab51923ac67db6eedd71c\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\03d114da583d154c9d297b84ba3d4086\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\03d114da583d154c9d297b84ba3d4086\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\062b662148864ebc7f8361ad1ec9b06a\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\062b662148864ebc7f8361ad1ec9b06a\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\113580de2915e5a00523c872cee93a17\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\113580de2915e5a00523c872cee93a17\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\5bdd672a25bee5a77c10195ed9c68eae\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\5bdd672a25bee5a77c10195ed9c68eae\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\4860d35ceb56a35e0b713ba5c388b2f1\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\4860d35ceb56a35e0b713ba5c388b2f1\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\699f9f691115bc2fbb671b8d24f1c14d\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\699f9f691115bc2fbb671b8d24f1c14d\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\9395e3e08364455ef632adbf76ea348d\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\9395e3e08364455ef632adbf76ea348d\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\64f33ee56c49823bbc7b40c0f461a26e\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\64f33ee56c49823bbc7b40c0f461a26e\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\6dbe834155a51f660d145f5e29687566\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\6dbe834155a51f660d145f5e29687566\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] D:\dev2026\Gradle_Home\caches\transforms-3\3e46dfdb2555b554e89a0099e3702969\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] D:\dev2026\Gradle_Home\caches\transforms-3\3e46dfdb2555b554e89a0099e3702969\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\c0401e9a0d090f899c0e453a2faf334d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\c0401e9a0d090f899c0e453a2faf334d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] D:\dev2026\Gradle_Home\caches\transforms-3\b7485beff5be4b7ef9210ec59e2236b1\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] D:\dev2026\Gradle_Home\caches\transforms-3\b7485beff5be4b7ef9210ec59e2236b1\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\30aba3bf06da581d6b03cd0c813515b8\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\30aba3bf06da581d6b03cd0c813515b8\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] D:\dev2026\Gradle_Home\caches\transforms-3\f6b5562d1fc5fff35b7b496b016820e0\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] D:\dev2026\Gradle_Home\caches\transforms-3\f6b5562d1fc5fff35b7b496b016820e0\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] D:\dev2026\Gradle_Home\caches\transforms-3\74dca162fa9aa97a32e76692b452d311\transformed\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] D:\dev2026\Gradle_Home\caches\transforms-3\74dca162fa9aa97a32e76692b452d311\transformed\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] D:\dev2026\Gradle_Home\caches\transforms-3\c0ae9ba6d0f3f44e5ff67b87ee032096\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] D:\dev2026\Gradle_Home\caches\transforms-3\c0ae9ba6d0f3f44e5ff67b87ee032096\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] D:\dev2026\Gradle_Home\caches\transforms-3\89a568ba1616d337fca1de2571bccc44\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] D:\dev2026\Gradle_Home\caches\transforms-3\89a568ba1616d337fca1de2571bccc44\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] D:\dev2026\Gradle_Home\caches\transforms-3\f395585874813e309727c59b62d515bd\transformed\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] D:\dev2026\Gradle_Home\caches\transforms-3\f395585874813e309727c59b62d515bd\transformed\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] D:\dev2026\Gradle_Home\caches\transforms-3\2f703ddbba08ab9f29e3ef08e526de43\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] D:\dev2026\Gradle_Home\caches\transforms-3\2f703ddbba08ab9f29e3ef08e526de43\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\dacce6662e544e863fa46497c36bcb11\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\dacce6662e544e863fa46497c36bcb11\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\645136857109902dddd71d181f9d9bde\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\645136857109902dddd71d181f9d9bde\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\6f9e277dd6867ed8f42ad4bca92bf9a6\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\6f9e277dd6867ed8f42ad4bca92bf9a6\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\26ad8693a9ec2885b032e73eb602d665\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\26ad8693a9ec2885b032e73eb602d665\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.14.2] D:\dev2026\Gradle_Home\caches\transforms-3\66aa2b822740bd934e6e25ed4a98c814\transformed\jetified-exoplayer-dash-2.14.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.14.2] D:\dev2026\Gradle_Home\caches\transforms-3\66aa2b822740bd934e6e25ed4a98c814\transformed\jetified-exoplayer-dash-2.14.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.14.2] D:\dev2026\Gradle_Home\caches\transforms-3\e2599b308b8d47a02265183d963f9964\transformed\jetified-exoplayer-hls-2.14.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.14.2] D:\dev2026\Gradle_Home\caches\transforms-3\e2599b308b8d47a02265183d963f9964\transformed\jetified-exoplayer-hls-2.14.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.14.2] D:\dev2026\Gradle_Home\caches\transforms-3\de137a8c8625f659fb1897d58bb9cf73\transformed\jetified-exoplayer-rtsp-2.14.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.14.2] D:\dev2026\Gradle_Home\caches\transforms-3\de137a8c8625f659fb1897d58bb9cf73\transformed\jetified-exoplayer-rtsp-2.14.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.2] D:\dev2026\Gradle_Home\caches\transforms-3\382189f729f228e71fbf445818960396\transformed\jetified-exoplayer-core-2.14.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.2] D:\dev2026\Gradle_Home\caches\transforms-3\382189f729f228e71fbf445818960396\transformed\jetified-exoplayer-core-2.14.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:extension-rtmp:2.14.2] D:\dev2026\Gradle_Home\caches\transforms-3\320bf309a96b7425ffc69c6e8bde05e7\transformed\jetified-extension-rtmp-2.14.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:extension-rtmp:2.14.2] D:\dev2026\Gradle_Home\caches\transforms-3\320bf309a96b7425ffc69c6e8bde05e7\transformed\jetified-extension-rtmp-2.14.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\dev2026\Gradle_Home\caches\transforms-3\78597910d51f3f6962c1a6be61238471\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\dev2026\Gradle_Home\caches\transforms-3\78597910d51f3f6962c1a6be61238471\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\104de049f4b691a2d3f276926cf0e97b\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\104de049f4b691a2d3f276926cf0e97b\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.2] D:\dev2026\Gradle_Home\caches\transforms-3\3c1646fb0be97967b5be64e5536de501\transformed\jetified-exoplayer-extractor-2.14.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.2] D:\dev2026\Gradle_Home\caches\transforms-3\3c1646fb0be97967b5be64e5536de501\transformed\jetified-exoplayer-extractor-2.14.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.2] D:\dev2026\Gradle_Home\caches\transforms-3\6d4d05e9c2d2a04a1c7956beabdf3820\transformed\jetified-exoplayer-common-2.14.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.2] D:\dev2026\Gradle_Home\caches\transforms-3\6d4d05e9c2d2a04a1c7956beabdf3820\transformed\jetified-exoplayer-common-2.14.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\1c51323400d70de634b613438d730bea\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\1c51323400d70de634b613438d730bea\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\04a12f5c2ef85d3ef77a09c0b85719a2\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\04a12f5c2ef85d3ef77a09c0b85719a2\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\7960a3af442a80329c6ddad6404826b8\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\7960a3af442a80329c6ddad6404826b8\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\efe941af2014a5d4fe938ae82af53760\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] D:\dev2026\Gradle_Home\caches\transforms-3\efe941af2014a5d4fe938ae82af53760\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\40c99ae60eb691a4830a3d95cb57d91e\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\40c99ae60eb691a4830a3d95cb57d91e\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.conceal:conceal:1.1.3] D:\dev2026\Gradle_Home\caches\transforms-3\8e8ea11c670a10794980d6a789d8a96c\transformed\jetified-conceal-1.1.3\AndroidManifest.xml:12:5-14:41
+MERGED from [com.facebook.conceal:conceal:1.1.3] D:\dev2026\Gradle_Home\caches\transforms-3\8e8ea11c670a10794980d6a789d8a96c\transformed\jetified-conceal-1.1.3\AndroidManifest.xml:12:5-14:41
+MERGED from [xyz.doikki.android.dkplayer:dkplayer-ui:3.3.5] D:\dev2026\Gradle_Home\caches\transforms-3\8a826651e9dc777c19bb4a1c4bedf41d\transformed\jetified-dkplayer-ui-3.3.5\AndroidManifest.xml:5:5-7:41
+MERGED from [xyz.doikki.android.dkplayer:dkplayer-ui:3.3.5] D:\dev2026\Gradle_Home\caches\transforms-3\8a826651e9dc777c19bb4a1c4bedf41d\transformed\jetified-dkplayer-ui-3.3.5\AndroidManifest.xml:5:5-7:41
+MERGED from [net.butterflytv.utils:rtmp-client:3.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\ae1711a9577b20859800ca51f0d77eb1\transformed\jetified-rtmp-client-3.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [net.butterflytv.utils:rtmp-client:3.1.0] D:\dev2026\Gradle_Home\caches\transforms-3\ae1711a9577b20859800ca51f0d77eb1\transformed\jetified-rtmp-client-3.1.0\AndroidManifest.xml:7:5-9:41
+INJECTED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml
+INJECTED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml
+		INJECTED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml
+		INJECTED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:51:13-53:54
+	android:resource
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:53:17-51
+	android:name
+		ADDED from F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:52:17-67
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.3.0] D:\dev2026\Gradle_Home\caches\transforms-3\c9ce0ef312743e88f8c84f3e50dda09d\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.3.0] D:\dev2026\Gradle_Home\caches\transforms-3\c9ce0ef312743e88f8c84f3e50dda09d\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.3.0] D:\dev2026\Gradle_Home\caches\transforms-3\c9ce0ef312743e88f8c84f3e50dda09d\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.3.0] D:\dev2026\Gradle_Home\caches\transforms-3\c9ce0ef312743e88f8c84f3e50dda09d\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] D:\dev2026\Gradle_Home\caches\transforms-3\9c658f510c308e06d1001c5919c9bfdf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] D:\dev2026\Gradle_Home\caches\transforms-3\9c658f510c308e06d1001c5919c9bfdf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] D:\dev2026\Gradle_Home\caches\transforms-3\9c658f510c308e06d1001c5919c9bfdf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] D:\dev2026\Gradle_Home\caches\transforms-3\9c658f510c308e06d1001c5919c9bfdf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from [com.lzy.net:okgo:3.0.4] D:\dev2026\Gradle_Home\caches\transforms-3\4bfedce46163639f896f90bef16d9365\transformed\jetified-okgo-3.0.4\AndroidManifest.xml:29:5-84
+	android:name
+		ADDED from [com.lzy.net:okgo:3.0.4] D:\dev2026\Gradle_Home\caches\transforms-3\4bfedce46163639f896f90bef16d9365\transformed\jetified-okgo-3.0.4\AndroidManifest.xml:29:22-81
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:5-75
+	android:name
+		ADDED from [:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:22-72
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:22-65
+uses-permission#android.permission.GET_TASKS
+ADDED from [:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:5-68
+	android:name
+		ADDED from [:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:22-65
+provider#me.jessyan.autosize.InitProvider
+ADDED from [me.jessyan:autosize:1.2.1] D:\dev2026\Gradle_Home\caches\transforms-3\6e54aeaf960a279312d65bb7c93b83e0\transformed\jetified-autosize-1.2.1\AndroidManifest.xml:12:9-16:43
+	android:authorities
+		ADDED from [me.jessyan:autosize:1.2.1] D:\dev2026\Gradle_Home\caches\transforms-3\6e54aeaf960a279312d65bb7c93b83e0\transformed\jetified-autosize-1.2.1\AndroidManifest.xml:14:13-74
+	android:multiprocess
+		ADDED from [me.jessyan:autosize:1.2.1] D:\dev2026\Gradle_Home\caches\transforms-3\6e54aeaf960a279312d65bb7c93b83e0\transformed\jetified-autosize-1.2.1\AndroidManifest.xml:16:13-40
+	android:exported
+		ADDED from [me.jessyan:autosize:1.2.1] D:\dev2026\Gradle_Home\caches\transforms-3\6e54aeaf960a279312d65bb7c93b83e0\transformed\jetified-autosize-1.2.1\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [me.jessyan:autosize:1.2.1] D:\dev2026\Gradle_Home\caches\transforms-3\6e54aeaf960a279312d65bb7c93b83e0\transformed\jetified-autosize-1.2.1\AndroidManifest.xml:13:13-60
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] D:\dev2026\Gradle_Home\caches\transforms-3\f6b5562d1fc5fff35b7b496b016820e0\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] D:\dev2026\Gradle_Home\caches\transforms-3\f6b5562d1fc5fff35b7b496b016820e0\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] D:\dev2026\Gradle_Home\caches\transforms-3\f6b5562d1fc5fff35b7b496b016820e0\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] D:\dev2026\Gradle_Home\caches\transforms-3\f6b5562d1fc5fff35b7b496b016820e0\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] D:\dev2026\Gradle_Home\caches\transforms-3\f6b5562d1fc5fff35b7b496b016820e0\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79

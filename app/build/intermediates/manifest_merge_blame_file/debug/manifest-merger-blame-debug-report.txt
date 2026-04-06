@@ -1,0 +1,181 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.github.tvbox.osc"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:5:5-67
+11-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:6:5-79
+12-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:7:5-76
+13-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+14-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:8:5-86
+14-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:8:22-83
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:9:5-80
+15-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:9:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:10:5-81
+16-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:11:5-79
+17-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+18-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:12:5-83
+18-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:12:22-80
+19    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+19-->[com.lzy.net:okgo:3.0.4] D:\dev2026\Gradle_Home\caches\transforms-3\4bfedce46163639f896f90bef16d9365\transformed\jetified-okgo-3.0.4\AndroidManifest.xml:29:5-84
+19-->[com.lzy.net:okgo:3.0.4] D:\dev2026\Gradle_Home\caches\transforms-3\4bfedce46163639f896f90bef16d9365\transformed\jetified-okgo-3.0.4\AndroidManifest.xml:29:22-81
+20    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+20-->[:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:5-75
+20-->[:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:22-72
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->[:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:5-68
+21-->[:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:22-65
+22    <uses-permission android:name="android.permission.GET_TASKS" />
+22-->[:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:5-68
+22-->[:player] F:\dev2026\TVBoxOSC-LiveOnly\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:22-65
+23
+24    <application
+24-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:14:5-63:19
+25        android:name="com.github.tvbox.osc.base.App"
+25-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:15:9-33
+26        android:allowBackup="true"
+26-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:16:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.5.0] D:\dev2026\Gradle_Home\caches\transforms-3\3e46dfdb2555b554e89a0099e3702969\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+28        android:banner="@drawable/app_banner"
+28-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:17:9-46
+29        android:configChanges="orientation|keyboardHidden|screenSize"
+29-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:18:9-70
+30        android:debuggable="true"
+31        android:hardwareAccelerated="true"
+31-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:19:9-43
+32        android:icon="@drawable/app_icon"
+32-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:20:9-42
+33        android:label="@string/app_name"
+33-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:21:9-41
+34        android:largeHeap="true"
+34-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:22:9-33
+35        android:networkSecurityConfig="@xml/network_security_config"
+35-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:23:9-69
+36        android:supportsRtl="true"
+36-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:24:9-35
+37        android:theme="@style/AppTheme.NoActionBar"
+37-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:25:9-52
+38        android:usesCleartextTraffic="true" >
+38-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:26:9-44
+39        <activity
+39-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:28:9-37:20
+40            android:name="com.github.tvbox.osc.ui.activity.HomeActivity"
+40-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:29:13-53
+41            android:screenOrientation="landscape" >
+41-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:30:13-50
+42            <intent-filter>
+42-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:31:13-36:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:32:17-69
+43-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:32:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:34:17-77
+45-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:34:27-74
+46                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+46-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:35:17-86
+46-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:35:27-83
+47            </intent-filter>
+48        </activity>
+49        <activity
+49-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:39:9-41:53
+50            android:name="com.github.tvbox.osc.ui.activity.LivePlayActivity"
+50-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:40:13-57
+51            android:screenOrientation="landscape" />
+51-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:41:13-50
+52        <activity
+52-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:42:9-44:53
+53            android:name="com.github.tvbox.osc.ui.activity.SettingActivity"
+53-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:43:13-56
+54            android:screenOrientation="landscape" />
+54-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:44:13-50
+55
+56        <provider
+57            android:name="androidx.core.content.FileProvider"
+57-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:47:13-62
+58            android:authorities="com.github.tvbox.osc.fileprovider"
+58-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:48:13-64
+59            android:exported="false"
+59-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:49:13-37
+60            android:grantUriPermissions="true" >
+60-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:50:13-47
+61            <meta-data
+61-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:51:13-53:54
+62                android:name="android.support.FILE_PROVIDER_PATHS"
+62-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:52:17-67
+63                android:resource="@xml/file_paths" />
+63-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:53:17-51
+64        </provider>
+65
+66        <meta-data
+66-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:56:9-58:36
+67            android:name="design_width_in_dp"
+67-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:57:13-46
+68            android:value="1280" />
+68-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:58:13-33
+69        <meta-data
+69-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:59:9-61:35
+70            android:name="design_height_in_dp"
+70-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:60:13-47
+71            android:value="720" />
+71-->F:\dev2026\TVBoxOSC-LiveOnly\app\src\main\AndroidManifest.xml:61:13-32
+72
+73        <service
+73-->[androidx.room:room-runtime:2.3.0] D:\dev2026\Gradle_Home\caches\transforms-3\c9ce0ef312743e88f8c84f3e50dda09d\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+74            android:name="androidx.room.MultiInstanceInvalidationService"
+74-->[androidx.room:room-runtime:2.3.0] D:\dev2026\Gradle_Home\caches\transforms-3\c9ce0ef312743e88f8c84f3e50dda09d\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+75            android:directBootAware="true"
+75-->[androidx.room:room-runtime:2.3.0] D:\dev2026\Gradle_Home\caches\transforms-3\c9ce0ef312743e88f8c84f3e50dda09d\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+76            android:exported="false" />
+76-->[androidx.room:room-runtime:2.3.0] D:\dev2026\Gradle_Home\caches\transforms-3\c9ce0ef312743e88f8c84f3e50dda09d\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+77
+78        <provider
+78-->[com.squareup.picasso:picasso:2.71828] D:\dev2026\Gradle_Home\caches\transforms-3\9c658f510c308e06d1001c5919c9bfdf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+79            android:name="com.squareup.picasso.PicassoProvider"
+79-->[com.squareup.picasso:picasso:2.71828] D:\dev2026\Gradle_Home\caches\transforms-3\9c658f510c308e06d1001c5919c9bfdf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+80            android:authorities="com.github.tvbox.osc.com.squareup.picasso"
+80-->[com.squareup.picasso:picasso:2.71828] D:\dev2026\Gradle_Home\caches\transforms-3\9c658f510c308e06d1001c5919c9bfdf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+81            android:exported="false" />
+81-->[com.squareup.picasso:picasso:2.71828] D:\dev2026\Gradle_Home\caches\transforms-3\9c658f510c308e06d1001c5919c9bfdf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+82        <provider
+82-->[me.jessyan:autosize:1.2.1] D:\dev2026\Gradle_Home\caches\transforms-3\6e54aeaf960a279312d65bb7c93b83e0\transformed\jetified-autosize-1.2.1\AndroidManifest.xml:12:9-16:43
+83            android:name="me.jessyan.autosize.InitProvider"
+83-->[me.jessyan:autosize:1.2.1] D:\dev2026\Gradle_Home\caches\transforms-3\6e54aeaf960a279312d65bb7c93b83e0\transformed\jetified-autosize-1.2.1\AndroidManifest.xml:13:13-60
+84            android:authorities="com.github.tvbox.osc.autosize-init-provider"
+84-->[me.jessyan:autosize:1.2.1] D:\dev2026\Gradle_Home\caches\transforms-3\6e54aeaf960a279312d65bb7c93b83e0\transformed\jetified-autosize-1.2.1\AndroidManifest.xml:14:13-74
+85            android:exported="false"
+85-->[me.jessyan:autosize:1.2.1] D:\dev2026\Gradle_Home\caches\transforms-3\6e54aeaf960a279312d65bb7c93b83e0\transformed\jetified-autosize-1.2.1\AndroidManifest.xml:15:13-37
+86            android:multiprocess="true" />
+86-->[me.jessyan:autosize:1.2.1] D:\dev2026\Gradle_Home\caches\transforms-3\6e54aeaf960a279312d65bb7c93b83e0\transformed\jetified-autosize-1.2.1\AndroidManifest.xml:16:13-40
+87        <provider
+87-->[androidx.lifecycle:lifecycle-process:2.2.0] D:\dev2026\Gradle_Home\caches\transforms-3\f6b5562d1fc5fff35b7b496b016820e0\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+88            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+88-->[androidx.lifecycle:lifecycle-process:2.2.0] D:\dev2026\Gradle_Home\caches\transforms-3\f6b5562d1fc5fff35b7b496b016820e0\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+89            android:authorities="com.github.tvbox.osc.lifecycle-process"
+89-->[androidx.lifecycle:lifecycle-process:2.2.0] D:\dev2026\Gradle_Home\caches\transforms-3\f6b5562d1fc5fff35b7b496b016820e0\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+90            android:exported="false"
+90-->[androidx.lifecycle:lifecycle-process:2.2.0] D:\dev2026\Gradle_Home\caches\transforms-3\f6b5562d1fc5fff35b7b496b016820e0\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+91            android:multiprocess="true" />
+91-->[androidx.lifecycle:lifecycle-process:2.2.0] D:\dev2026\Gradle_Home\caches\transforms-3\f6b5562d1fc5fff35b7b496b016820e0\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+92    </application>
+93
+94</manifest>
